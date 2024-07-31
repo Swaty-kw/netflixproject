@@ -1,0 +1,57 @@
+.white-title {
+  font-family: sans-serif;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+  /* height: 100vh; */
+  height: 800px;
+}
+.top-left-title {
+  color: red;
+  font-family: sans-serif;
+}
+
+.first-div {
+  background-image: url("./banner.jpeg");
+  height: 800px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.top-right-sign-in {
+  align-items: center;
+  justify-content: end;
+}
+.sign-in {
+  display: flex;
+  align-items: flex-end;
+}
+.email-ad {
+  display: flex;
+  align-items: center;
+}
+
+.text-area {
+  color: white;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.get-started {
+  color: white;
+  text-align: center;
+}
+.ebar {
+  display: flex;
+  justify-content: space-between;
+}
+.color {
+  background-color: red;
+}
