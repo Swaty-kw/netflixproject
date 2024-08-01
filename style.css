@@ -4,7 +4,6 @@
   color: white;
   flex-direction: column;
   justify-content: center;
-  /* height: 100vh; */
   height: 800px;
 }
 .top-left-title {
@@ -42,16 +41,45 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  font-family: sans-serif;
 }
 
 .get-started {
   color: white;
   text-align: center;
+  font-family: sans-serif;
 }
 .ebar {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
 }
 .color {
+  border: none;
+  padding: 8px 22px;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 8px;
   background-color: red;
+}
+.button-1 {
+  border: none;
+  padding: 8px 22px;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 8px;
+  background-color: azure;
+}
+.button-2 {
+  cursor: pointer;
+  background-color: red;
+  border-radius: 8px;
+  display: inline-block;
+  padding: 5px;
+  border: none;
+}
+.p-1 {
+  font-size: 25px;
 }
